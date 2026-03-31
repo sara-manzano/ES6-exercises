@@ -10,6 +10,8 @@ console.log(title);
 console.log(gender);
 console.log(year);
 
+
+
 const fruits = ['Banana', 'Strawberry', 'Orange'];
 
 const [fruit1, fruit2, fruit3] = fruits;
@@ -18,6 +20,8 @@ console.log(fruit1);
 console.log(fruit2);
 console.log(fruit3);
 
+
+
 const animalFunction = () => {
     return {name: 'Bengal Tiger', race: 'Tiger'}
 };
@@ -25,7 +29,9 @@ const animalFunction = () => {
 const { name, race } = animalFunction();
 
 console.log(name);
-console.log(race);                  
+console.log(race);   
+
+
 
 const car = {model: 'Mazda 6', itv: [2015, 2011, 2020] };
 
